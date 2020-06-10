@@ -11,10 +11,14 @@ Sacrifice: Based on Code from Wrath of the Righteous you can kill off minor pops
 
 Resource Production: A trait for each strategic resource allows the construction of a building to produce it at the same speed as a poor deposit.
 
-Behemoths: There is a trait to specialise the behemoths towards military action, the economy or science.</Description>
+Behemoths: There is a trait to specialise the behemoths towards military action, the economy or science.
+
+This is still WIP!
+
+Source code is at https://github.com/Idrinth-s-Endless-Space-2-Mods/IdrinthsNewTraits - contributions are always welcome.</Description>
         <Author>Idrinth</Author>
         
-        <Homepage></Homepage>
+        <Homepage>https://github.com/Idrinth-s-Endless-Space-2-Mods/IdrinthsNewTraits</Homepage>
 
         <PreviewImageFile>int.jpg</PreviewImageFile>
 
