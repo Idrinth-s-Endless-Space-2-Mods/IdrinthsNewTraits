@@ -2,7 +2,9 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LocalizationPair Name="%StarSystemImprovementIdrinthSacrificeTitle">The greater good</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementIdrinthSacrificeDescription">Sacrifice a minor population to regain living space for your major population.</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementIdrinthSacrificeTooltipEffect"></LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthSacrificeTooltipEffect">Sacrificing minor populations for science is now an option.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthSacrificeMinorTitle">Sacrifice</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthSacrificeMinorDescription">Sacrifice a minor population to regain living space for your major population.</LocalizationPair>
 
   <LocalizationPair Name="%FactionTraitIdrinthProduceHyperiumTitle">Hyperium Producer</LocalizationPair>
   <LocalizationPair Name="%FactionTraitIdrinthProduceHyperiumDescription">Your people have learned secrets that allow them to manifacture Hyperium.</LocalizationPair>
@@ -14,6 +16,25 @@
   <LocalizationPair Name="%FactionTraitIdrinthProduceAdamantianDescription">Your people have learned secrets that allow them to manifacture Adamantian.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitIdrinthProduceOricalcixTitle">Oricalcix Producer</LocalizationPair>
   <LocalizationPair Name="%FactionTraitIdrinthProduceOricalcixDescription">Your people have learned secrets that allow them to manifacture Oricalcix.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitIdrinthProduceQuadrinixTitle">Hyperium Producer</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitIdrinthProduceQuadrinixDescription">Your people have learned secrets that allow them to manifacture Hyperium.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceQuadrinixTitle">Quadrinix Producer</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceQuadrinixDescription">Your people have learned secrets that allow them to manifacture Quadrinix.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthProduceHyperiumTitle">Hyperium Producer</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthProduceHyperiumDescription">Your people have learned secrets that allow them to manifacture Hyperium.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthProduceTitaniumTitle">Titanium Producer</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthProduceTitaniumDescription">Your people have learned secrets that allow them to manifacture Titanium.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthProduceAntimatterTitle">Antimatter Producer</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthProduceAntimatterDescription">Your people have learned secrets that allow them to manifacture Antimatter.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthProduceAdamantianTitle">Adamantian Producer</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthProduceAdamantianDescription">Your people have learned secrets that allow them to manifacture Adamantian.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthProduceOricalcixTitle">Oricalcix Producer</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthProduceOricalcixDescription">Your people have learned secrets that allow them to manifacture Oricalcix.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthProduceQuadrinixTitle">Quadrinix Producer</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthProduceQuadrinixDescription">Your people have learned secrets that allow them to manifacture Quadrinix.</LocalizationPair>
+
+  <LocalizationPair Name="%FactionTraitIdrinthEconomicBehemothsTitle">Economic Behemoths</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthEconomicBehemothsDescription"></LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthMilitaryBehemothsTitle">Militarised Behemoths</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthMilitaryBehemothsDescription"></LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthScientificBehemothsTitle">Scientific Behemoths</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthScientificBehemothsDescription"></LocalizationPair>
 </Datatable>

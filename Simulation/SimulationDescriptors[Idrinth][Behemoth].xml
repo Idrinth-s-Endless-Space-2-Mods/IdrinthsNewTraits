@@ -7,11 +7,11 @@
     </SimulationDescriptor>
     <SimulationDescriptor Name="FactionTraitIdrinthScientificBehemoths" Type="FactionTrait" IsSerializable="true">
         <Modifier TargetProperty="ShipHealth" Operation="Addition" Value="1500" Path="ClassEmpire//ClassShip,ShipRoleJuggernaut"/>
-        <BinaryModifier TargetProperty="NetEmpireScience" Operation="Addition" BinaryOperation="Multiplication" Left="50" Right="${JuggernautCount}" Path="ClassEmpire" SearchValueFromPath="true"/>
+        <BinaryModifier TargetProperty="NetEmpireResearch" Operation="Addition" BinaryOperation="Multiplication" Left="50" Right="${JuggernautCount}" Path="ClassEmpire" SearchValueFromPath="true"/>
     </SimulationDescriptor>
     <SimulationDescriptor Name="FactionTraitIdrinthEconomicBehemoths" Type="FactionTrait" IsSerializable="true">
         <Modifier TargetProperty="ShipHealth" Operation="Addition" Value="1500" Path="ClassEmpire//ClassShip,ShipRoleJuggernaut"/>
-        <Modifier TargetProperty="Upkeep" Operation="Percent" Value="0.1" Path="ClassEmpire//ClassShip,ShipRoleJuggernaut"/>
+        <Modifier TargetProperty="Upkeep" Operation="Percent" Value="-0.1" Path="ClassEmpire//ClassShip,ShipRoleJuggernaut"/>
         <BinaryModifier TargetProperty="NetEmpireMoney" Operation="Addition" BinaryOperation="Multiplication" Left="50" Right="${JuggernautCount}" Path="ClassEmpire" SearchValueFromPath="true"/>
     </SimulationDescriptor>
 </Datatable>

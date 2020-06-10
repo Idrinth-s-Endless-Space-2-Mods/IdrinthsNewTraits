@@ -41,7 +41,7 @@
         <Title>%FactionTraitIdrinthScientificBehemothsTitle</Title>
         <Description>%FactionTraitIdrinthScientificBehemothsDescription</Description>
     </ExtendedGuiElement>
-    <ExtendedGuiElement Name="FactionTraitIdrinthProduceQuadrinix">
+    <ExtendedGuiElement Name="FactionTraitIdrinthMilitaryBehemoths">
         <Title>%FactionTraitIdrinthMilitaryBehemothsTitle</Title>
         <Description>%FactionTraitIdrinthMilitaryBehemothsDescription</Description>
     </ExtendedGuiElement>

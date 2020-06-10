@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
     <SimulationDescriptor Name="FactionTraitIdrinthProduceHyperium" Type="FactionTrait" IsSerializable="true">
-        <Modifier Path="ClassEmpire/ClassStarSystem" TargetProperty="NetStrategic1" Operation="Percent" Value="0.1"/>
-    </SimulationDescriptor>
-    <SimulationDescriptor Name="FactionTraitIdrinthProduceTitanium" Type="FactionTrait" IsSerializable="true">
         <Modifier Path="ClassEmpire/ClassStarSystem" TargetProperty="NetStrategic2" Operation="Percent" Value="0.1"/>
     </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitIdrinthProduceTitanium" Type="FactionTrait" IsSerializable="true">
+        <Modifier Path="ClassEmpire/ClassStarSystem" TargetProperty="NetStrategic1" Operation="Percent" Value="0.1"/>
+    </SimulationDescriptor>
     <SimulationDescriptor Name="FactionTraitIdrinthProduceAntimatter" Type="FactionTrait" IsSerializable="true">
-        <Modifier Path="ClassEmpire/ClassStarSystem" TargetProperty="NetStrategic3" Operation="Percent" Value="0.1"/>
+        <Modifier Path="ClassEmpire/ClassStarSystem" TargetProperty="NetStrategic4" Operation="Percent" Value="0.1"/>
     </SimulationDescriptor>
     <SimulationDescriptor Name="FactionTraitIdrinthProduceAdamantian" Type="FactionTrait" IsSerializable="true">
-        <Modifier Path="ClassEmpire/ClassStarSystem" TargetProperty="NetStrategic4" Operation="Percent" Value="0.1"/>
+        <Modifier Path="ClassEmpire/ClassStarSystem" TargetProperty="NetStrategic3" Operation="Percent" Value="0.1"/>
     </SimulationDescriptor>
     <SimulationDescriptor Name="FactionTraitIdrinthProduceOricalcix" Type="FactionTrait" IsSerializable="true">
         <Modifier Path="ClassEmpire/ClassStarSystem" TargetProperty="NetStrategic5" Operation="Percent" Value="0.1"/>
