@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
+    <FactionTrait Name="FactionTraitIdrinthSacrifice" SubCategory="FactionTrait" TraitSubCategory="Sacrifice" TraitCategory="TraitCategoryPopulation" Hidden="false" Custom="true" Cost="5">
+        <Prerequisites>!AffinityGameplayUmbralChoir,!AffinityGameplayVampirilis</Prerequisites>
+        <SimulationDescriptorReference Name="FactionTraitIdrinthSacrifice"/>
+    </FactionTrait>
+</Datatable>

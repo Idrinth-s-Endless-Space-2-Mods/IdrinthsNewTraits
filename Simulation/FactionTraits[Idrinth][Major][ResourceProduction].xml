@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
+    <FactionTrait Name="FactionTraitIdrinthProduceHyperium" SubCategory="FactionTrait" TraitSubCategory="ProduceHyperium" TraitCategory="TraitCategoryEconomy" Hidden="false" Custom="true" Cost="3">
+        <SimulationDescriptorReference Name="FactionTraitIdrinthProduceHyperium"/>
+    </FactionTrait>
+    <FactionTrait Name="FactionTraitIdrinthProduceTitanium" SubCategory="FactionTrait" TraitSubCategory="ProduceTitanium" TraitCategory="TraitCategoryEconomy" Hidden="false" Custom="true" Cost="3">
+        <SimulationDescriptorReference Name="FactionTraitIdrinthProduceTitanium"/>
+    </FactionTrait>
+    <FactionTrait Name="FactionTraitIdrinthProduceAntimatter" SubCategory="FactionTrait" TraitSubCategory="ProduceAntimatter" TraitCategory="TraitCategoryEconomy" Hidden="false" Custom="true" Cost="4">
+        <SimulationDescriptorReference Name="FactionTraitIdrinthProduceAntimatter"/>
+    </FactionTrait>
+    <FactionTrait Name="FactionTraitIdrinthProduceAdamantian" SubCategory="FactionTrait" TraitSubCategory="ProduceAdamantian" TraitCategory="TraitCategoryEconomy" Hidden="false" Custom="true" Cost="4">
+        <SimulationDescriptorReference Name="FactionTraitIdrinthProduceAdamantian"/>
+    </FactionTrait>
+    <FactionTrait Name="FactionTraitIdrinthProduceOricalcix" SubCategory="FactionTrait" TraitSubCategory="ProduceOricalcix" TraitCategory="TraitCategoryEconomy" Hidden="false" Custom="true" Cost="5">
+        <SimulationDescriptorReference Name="FactionTraitIdrinthProduceOricalcix"/>
+    </FactionTrait>
+    <FactionTrait Name="FactionTraitIdrinthProduceQuadrinix" SubCategory="FactionTrait" TraitSubCategory="ProduceQuadrinix" TraitCategory="TraitCategoryEconomy" Hidden="false" Custom="true" Cost="5">
+        <SimulationDescriptorReference Name="FactionTraitIdrinthProduceQuadrinix"/>
+    </FactionTrait>
+</Datatable>

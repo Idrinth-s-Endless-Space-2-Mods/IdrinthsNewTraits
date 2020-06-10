@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LocalizationPair Name="%StarSystemImprovementIdrinthSacrificeTitle">The greater good</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthSacrificeDescription">Sacrifice a minor population to regain living space for your major population.</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementIdrinthSacrificeTooltipEffect"></LocalizationPair>
+
+  <LocalizationPair Name="%FactionTraitIdrinthProduceHyperiumTitle">Hyperium Producer</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceHyperiumDescription">Your people have learned secrets that allow them to manifacture Hyperium.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceTitaniumTitle">Titanium Producer</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceTitaniumDescription">Your people have learned secrets that allow them to manifacture Titanium.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceAntimatterTitle">Antimatter Producer</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceAntimatterDescription">Your people have learned secrets that allow them to manifacture Antimatter.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceAdamantianTitle">Adamantian Producer</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceAdamantianDescription">Your people have learned secrets that allow them to manifacture Adamantian.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceOricalcixTitle">Oricalcix Producer</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceOricalcixDescription">Your people have learned secrets that allow them to manifacture Oricalcix.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceQuadrinixTitle">Hyperium Producer</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthProduceQuadrinixDescription">Your people have learned secrets that allow them to manifacture Hyperium.</LocalizationPair>
+</Datatable>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="StarSystemImprovementIdrinthSacrificeEffect" Type="TemporaryEffect">
+       <Modifier TargetProperty="Happiness" Operation="Addition" Value="-10" Path="ClassColonizedStarSystem"/>
+       <Modifier TargetProperty="NetSystemResearch" Operation="Addition" Value="25" Path="ClassColonizedStarSystem"/>
+       <Modifier TargetProperty="NetSystemGrowth" Operation="Addition" Value="25" Path="ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="StarSystemImprovementIdrinthSacrifice" Type="StarSystemImprovement"/>
+    <SimulationDescriptor Name="StarSystemImprovementIdrinthSacrificeQueued" Type="StarSystemImprovement">
+      <Modifier TargetProperty="OnGoingSacrifice" Operation="Addition" Value="1"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitIdrinthSacrifice" Type="FactionTrait" IsSerializable="true"/>
+</Datatable>

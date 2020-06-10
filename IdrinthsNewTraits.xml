@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+    <RuntimeModule Name="IdrinthsNewTraits" Type="Extension" Version="0.1">
+
+        <Title>Idrinth's New Traits</Title>
+
+        <Description>This mods adds a couple new Traits to help specialize your custom empires more without making them entirely overpowered.
+
+Sacrifice: Based on Code from Wrath of the Righteous you can kill off minor pops. This does not bring along political shifts, any direction could find a reason if extremists take over.
+
+Resource Production: A trait for each strategic resource allows the construction of a building to produce it at the same speed as a poor deposit.
+
+Behemoths: There is a trait to specialise the behemoths towards military action, the economy or science.</Description>
+        <Author>Idrinth</Author>
+        
+        <Homepage></Homepage>
+
+        <PreviewImageFile>int.jpg</PreviewImageFile>
+
+        <ReleaseNotes></ReleaseNotes>
+
+        <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units. -->
+        <Tags>MinorFactions, MajorFactions, Other</Tags>
+
+        <Plugins>
+            <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+                <FilePath>Simulation/SimulationDescriptors[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <DatabasePlugin DataType="FactionTrait, Assembly-CSharp" Priority="20">
+                <FilePath>Simulation/FactionTraits[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <DatabasePlugin DataType="TemporaryEffectDefinition, Assembly-CSharp">
+                <ExtraTypes>
+                    <ExtraType DataType="TemporaryEffectMinorRelationDefinition, Assembly-CSharp"/>
+                </ExtraTypes>
+                <FilePath>Simulation/TemporaryEffectDefinitions[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <DatabasePlugin DataType="IndustryConstructibleElement, Assembly-CSharp">
+                <ExtraTypes>
+                    <ExtraType DataType="StarSystemImprovementDefinition, Assembly-CSharp"/>
+                    <ExtraType DataType="StarSystemPopulationTransformImprovementDefinition, Assembly-CSharp"/>
+                </ExtraTypes>
+                <FilePath>Simulation/ConstructibleElement[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass"  Priority="20">
+                <ExtraTypes>
+                    <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
+                    <ExtraType DataType="AffinityGuiElement, Assembly-CSharp"/>
+                </ExtraTypes>
+                <FilePath>Gui/GuiElements[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <LocalizationPlugin DefaultLanguage="english">
+                <Directory>Localization</Directory>
+            </LocalizationPlugin>
+            <RegistryPlugin>
+                <FilePath>Registry.xml</FilePath>
+            </RegistryPlugin>
+        </Plugins>
+    </RuntimeModule>
+</Datatable>

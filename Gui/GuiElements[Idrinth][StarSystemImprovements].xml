@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+    <ExtendedGuiElement Name="StarSystemImprovementIdrinthSacrificeMinor">
+        <Title>%StarSystemImprovementIdrinthSacrificeMinorTitle</Title>
+        <Description>%StarSystemImprovementIdrinthSacrificeMinorDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%StarSystemImprovementIdrinthSacrificeMinorTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="StarSystemImprovementIdrinthProduceHyperium">
+        <Title>%StarSystemImprovementIdrinthProduceHyperiumTitle</Title>
+        <Description>%StarSystemImprovementIdrinthProduceHyperiumDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="StarSystemImprovementIdrinthProduceTitanium">
+        <Title>%StarSystemImprovementIdrinthProduceTitaniumTitle</Title>
+        <Description>%StarSystemImprovementIdrinthProduceTitaniumDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="StarSystemImprovementIdrinthProduceAntimatter">
+        <Title>%StarSystemImprovementIdrinthProduceAntimatterTitle</Title>
+        <Description>%StarSystemImprovementIdrinthProduceAntimatterDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="StarSystemImprovementIdrinthProduceAdamantian">
+        <Title>%StarSystemImprovementIdrinthProduceAdamantianTitle</Title>
+        <Description>%StarSystemImprovementIdrinthProduceAdamantianDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="StarSystemImprovementIdrinthProduceOricalcix">
+        <Title>%StarSystemImprovementIdrinthProduceOricalcixTitle</Title>
+        <Description>%StarSystemImprovementIdrinthProduceOricalcixDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="StarSystemImprovementIdrinthProduceQuadrinix">
+        <Title>%StarSystemImprovementIdrinthProduceQuadrinixTitle</Title>
+        <Description>%StarSystemImprovementIdrinthProduceQuadrinixDescription</Description>
+    </ExtendedGuiElement>
+</Datatable>

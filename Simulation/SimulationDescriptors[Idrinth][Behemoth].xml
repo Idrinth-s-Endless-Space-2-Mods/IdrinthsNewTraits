@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="FactionTraitIdrinthMilitaryBehemoths" Type="FactionTrait" IsSerializable="true">
+        <Modifier TargetProperty="ShipHealth" Operation="Addition" Value="3000" Path="ClassEmpire//ClassShip,ShipRoleJuggernaut"/>
+        <Modifier TargetProperty="Damage" Operation="Percent" Value="0.25" Path="ClassEmpire//ClassShip,ShipRoleJuggernaut"/>
+        <Modifier TargetProperty="Cooldown" Operation="Percent" Value="-0.2" Path="ClassEmpire//ClassShip,ShipRoleJuggernaut"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitIdrinthScientificBehemoths" Type="FactionTrait" IsSerializable="true">
+        <Modifier TargetProperty="ShipHealth" Operation="Addition" Value="1500" Path="ClassEmpire//ClassShip,ShipRoleJuggernaut"/>
+        <BinaryModifier TargetProperty="NetEmpireScience" Operation="Addition" BinaryOperation="Multiplication" Left="50" Right="${JuggernautCount}" Path="ClassEmpire" SearchValueFromPath="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitIdrinthEconomicBehemoths" Type="FactionTrait" IsSerializable="true">
+        <Modifier TargetProperty="ShipHealth" Operation="Addition" Value="1500" Path="ClassEmpire//ClassShip,ShipRoleJuggernaut"/>
+        <Modifier TargetProperty="Upkeep" Operation="Percent" Value="0.1" Path="ClassEmpire//ClassShip,ShipRoleJuggernaut"/>
+        <BinaryModifier TargetProperty="NetEmpireMoney" Operation="Addition" BinaryOperation="Multiplication" Left="50" Right="${JuggernautCount}" Path="ClassEmpire" SearchValueFromPath="true"/>
+    </SimulationDescriptor>
+</Datatable>

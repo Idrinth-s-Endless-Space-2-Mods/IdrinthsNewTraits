@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
+    <StarSystemImprovementDefinition Name="StarSystemImprovementIdrinthProduceHyperium" SubCategory="SubCategoryStrategicResources" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Military" />
+        <SupervisorGain Name="Science" />
+        <Cost ResourceName="SystemProduction">600</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,FactionTraitIdrinthProduceHyperium</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementIdrinthProduceHyperium,!FastForwardedImprovement</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,EmpireImprovementStrategic2</PathPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementIdrinthProduceHyperium" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage1Extreme" />
+    </StarSystemImprovementDefinition>
+    <StarSystemImprovementDefinition Name="StarSystemImprovementIdrinthProduceTitanium" SubCategory="SubCategoryStrategicResources" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Military" />
+        <SupervisorGain Name="Science" />
+        <Cost ResourceName="SystemProduction">600</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,FactionTraitIdrinthProduceTitanium</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementIdrinthProduceTitanium,!FastForwardedImprovement</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,EmpireImprovementStrategic1</PathPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementIdrinthProduceTitanium" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage1Extreme" />
+    </StarSystemImprovementDefinition>
+    <StarSystemImprovementDefinition Name="StarSystemImprovementIdrinthProduceAntimatter" SubCategory="SubCategoryStrategicResources" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Military" />
+        <SupervisorGain Name="Science" />
+        <Cost ResourceName="SystemProduction">900</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,FactionTraitIdrinthProduceAntimatter</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementIdrinthProduceAntimatter,!FastForwardedImprovement</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,EmpireImprovementStrategic4</PathPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementIdrinthProduceAntimatter" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Extreme" />
+    </StarSystemImprovementDefinition>
+    <StarSystemImprovementDefinition Name="StarSystemImprovementIdrinthProduceAdamantian" SubCategory="SubCategoryStrategicResources" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Military" />
+        <SupervisorGain Name="Science" />
+        <Cost ResourceName="SystemProduction">900</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,FactionTraitIdrinthProduceAdamantian</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementIdrinthProduceAdamantian,!FastForwardedImprovement</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,EmpireImprovementStrategic3</PathPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementIdrinthProduceAdamantian" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Extreme" />
+    </StarSystemImprovementDefinition>
+    <StarSystemImprovementDefinition Name="StarSystemImprovementIdrinthProduceOricalcix" SubCategory="SubCategoryStrategicResources" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Military" />
+        <SupervisorGain Name="Science" />
+        <Cost ResourceName="SystemProduction">1200</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,FactionTraitIdrinthProduceOricalcix</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementIdrinthProduceOricalcix,!FastForwardedImprovement</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,EmpireImprovementStrategic5</PathPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementIdrinthProduceOricalcix" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4Extreme" />
+    </StarSystemImprovementDefinition>
+    <StarSystemImprovementDefinition Name="StarSystemImprovementIdrinthProduceQuadrinix" SubCategory="SubCategoryStrategicResources" ScoreProvider="StarSystemImprovementBuilt">
+        <SupervisorGain Name="Military" />
+        <SupervisorGain Name="Science" />
+        <Cost ResourceName="SystemProduction">1200</Cost>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,FactionTraitIdrinthProduceQuadrinix</PathPrerequisite>
+        <PathPrerequisite Inverted="true" Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementIdrinthProduceQuadrinix,!FastForwardedImprovement</PathPrerequisite>
+        <PathPrerequisite Flags="Prerequisite,Discard">../ClassEmpire,EmpireImprovementStrategic6</PathPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementIdrinthProduceQuadrinix" />
+        <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4Extreme" />
+    </StarSystemImprovementDefinition>
+</Datatable>

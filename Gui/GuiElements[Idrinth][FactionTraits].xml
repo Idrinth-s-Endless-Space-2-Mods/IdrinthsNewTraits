@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <ExtendedGuiElement Name="FactionTraitIdrinthSacrifice">
+        <Title>%StarSystemImprovementIdrinthSacrificeTitle</Title>
+        <Description>%StarSystemImprovementIdrinthSacrificeDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%StarSystemImprovementIdrinthSacrificeTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="FactionTraitIdrinthProduceHyperium">
+        <Title>%FactionTraitIdrinthProduceHyperiumTitle</Title>
+        <Description>%FactionTraitIdrinthProduceHyperiumDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="FactionTraitIdrinthProduceTitanium">
+        <Title>%FactionTraitIdrinthProduceTitaniumTitle</Title>
+        <Description>%FactionTraitIdrinthProduceTitaniumDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="FactionTraitIdrinthProduceAntimatter">
+        <Title>%FactionTraitIdrinthProduceAntimatterTitle</Title>
+        <Description>%FactionTraitIdrinthProduceAntimatterDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="FactionTraitIdrinthProduceAdamantian">
+        <Title>%FactionTraitIdrinthProduceAdamantianTitle</Title>
+        <Description>%FactionTraitIdrinthProduceAdamantianDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="FactionTraitIdrinthProduceOricalcix">
+        <Title>%FactionTraitIdrinthProduceOricalcixTitle</Title>
+        <Description>%FactionTraitIdrinthProduceOricalcixDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="FactionTraitIdrinthProduceQuadrinix">
+        <Title>%FactionTraitIdrinthProduceQuadrinixTitle</Title>
+        <Description>%FactionTraitIdrinthProduceQuadrinixDescription</Description>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="FactionTraitIdrinthEconomicBehemoths">
+        <Title>%FactionTraitIdrinthEconomicBehemothsTitle</Title>
+        <Description>%FactionTraitIdrinthEconomicBehemothsDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="FactionTraitIdrinthScientificBehemoths">
+        <Title>%FactionTraitIdrinthScientificBehemothsTitle</Title>
+        <Description>%FactionTraitIdrinthScientificBehemothsDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="FactionTraitIdrinthProduceQuadrinix">
+        <Title>%FactionTraitIdrinthMilitaryBehemothsTitle</Title>
+        <Description>%FactionTraitIdrinthMilitaryBehemothsDescription</Description>
+    </ExtendedGuiElement>
+</Datatable>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
+    <StarSystemPopulationTransformImprovementDefinition Name="StarSystemImprovementIdrinthSacrificeMinor" 
+                                                        SubCategory="SubCategoryPopulation"
+                                                        ScoreProvider="StarSystemImprovementBuilt"
+                                                        PopulationSource="Minor" 
+                                                        PopulationSourceHeuristic="LowestCount"
+                                                        IgnoreInvinciblePopulation="true"
+                                                        PopulationToTransformCount="1">
+        <Tags>NoBuyout</Tags>
+        <QueuedSimulationDescriptorReference Name="StarSystemImprovementIdrinthSacrificeQueued"/>
+        <!-- Check for how many minor pops -->
+        <PathPrerequisite Flags="Edition,Discard,UnlockAvailability" Inverted="false">../ClassEmpire,FactionTraitIdrinthSacrifice</PathPrerequisite>
+        <InterpreterPrerequisite Inverted="false" Flags="NotEnoughPopulation,Enqueue">(Property(Context, @ClassColonizedStarSystem, Population) -  Property(Context, @ClassColonizedStarSystem, MajorPopulationCount) - Property(Context, @ClassColonizedStarSystem, OnGoingSacrifice) ) gt 0</InterpreterPrerequisite>
+        <SimulationDescriptorReference Name="StarSystemImprovementIdrinthSacrifice"/>
+        <TemporaryEffect>TemporaryEffectIdrinthSacrifice</TemporaryEffect>
+    </StarSystemPopulationTransformImprovementDefinition>
+</Datatable>
