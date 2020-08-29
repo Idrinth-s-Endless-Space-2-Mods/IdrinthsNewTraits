@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/TechnologyLinkDefinition.xsd">
+    <TechnologyLinkDefinition Name="TechnologyLinkDefinitionScienceAndExplorationIdrinthHacking1To2" Category="TechnologyLinkTypeCostReduction" PrerequisiteResolution="OR">
+        <TechnologyPrerequisite Flags="TechnologyLinkAvailability">TechnologyIdrinthHacking1</TechnologyPrerequisite>
+        <TechnologyPrerequisite Flags="TechnologyLinkAvailability">TechnologyIdrinthHacking2</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="TechnologyLinkDefinitionScienceAndExplorationIdrinthHacking1To2"/>
+    </TechnologyLinkDefinition>
+    <TechnologyLinkDefinition Name="TechnologyLinkDefinitionScienceAndExplorationIdrinthHacking1To3" Category="TechnologyLinkTypeCostReduction" PrerequisiteResolution="OR">
+        <TechnologyPrerequisite Flags="TechnologyLinkAvailability">TechnologyIdrinthHacking1</TechnologyPrerequisite>
+        <TechnologyPrerequisite Flags="TechnologyLinkAvailability">TechnologyIdrinthHacking3</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="TechnologyLinkDefinitionScienceAndExplorationIdrinthHacking1To3"/>
+    </TechnologyLinkDefinition>
+    <TechnologyLinkDefinition Name="TechnologyLinkDefinitionScienceAndExplorationIdrinthHacking2To4" Category="TechnologyLinkTypeCostReduction" PrerequisiteResolution="OR">
+        <TechnologyPrerequisite Flags="TechnologyLinkAvailability">TechnologyIdrinthHacking2</TechnologyPrerequisite>
+        <TechnologyPrerequisite Flags="TechnologyLinkAvailability">TechnologyIdrinthHacking4</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="TechnologyLinkDefinitionScienceAndExplorationIdrinthHacking2To4"/>
+    </TechnologyLinkDefinition>
+</Datatable>

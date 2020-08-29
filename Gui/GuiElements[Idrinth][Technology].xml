@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    <TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExplorationIdrinthHacking1" X="-1.5" Y="-1">
+        <Title>%TechnologyDefinitionScienceAndExplorationIdrinthHacking1Title</Title>
+        <Description>%TechnologyDefinitionScienceAndExplorationIdrinthHacking1Description</Description>
+    </TechnologyGuiElement2>
+    <TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExplorationIdrinthHacking2" X="-2" Y="0">
+        <Title>%TechnologyDefinitionScienceAndExplorationIdrinthHacking2Title</Title>
+        <Description>%TechnologyDefinitionScienceAndExplorationIdrinthHacking2Description</Description>
+    </TechnologyGuiElement2>
+    <TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExplorationIdrinthHacking3" X="0" Y="0">
+        <Title>%TechnologyDefinitionScienceAndExplorationIdrinthHacking3Title</Title>
+        <Description>%TechnologyDefinitionScienceAndExplorationIdrinthHacking3Description</Description>
+    </TechnologyGuiElement2>
+    <TechnologyGuiElement2 Name="TechnologyDefinitionScienceAndExplorationIdrinthHacking4" X="-2" Y="0">
+        <Title>%TechnologyDefinitionScienceAndExplorationIdrinthHacking4Title</Title>
+        <Description>%TechnologyDefinitionScienceAndExplorationIdrinthHacking4Description</Description>
+    </TechnologyGuiElement2>
+</Datatable>

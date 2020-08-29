@@ -37,4 +37,13 @@
   <LocalizationPair Name="%FactionTraitIdrinthMilitaryBehemothsDescription"></LocalizationPair>
   <LocalizationPair Name="%FactionTraitIdrinthScientificBehemothsTitle">Scientific Behemoths</LocalizationPair>
   <LocalizationPair Name="%FactionTraitIdrinthScientificBehemothsDescription"></LocalizationPair>
+
+  <LocalizationPair Name="%TechnologyDefinitionScienceAndExplorationIdrinthHacking1Title">AI Farm</LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionScienceAndExplorationIdrinthHacking1Description"></LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionScienceAndExplorationIdrinthHacking2Title">Centralised Talent Guidance</LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionScienceAndExplorationIdrinthHacking2Description"></LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionScienceAndExplorationIdrinthHacking3Title">Decentralized Heart Nodes</LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionScienceAndExplorationIdrinthHacking3Description"></LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionScienceAndExplorationIdrinthHacking4Title">Hacking-Stardom</LocalizationPair>
+  <LocalizationPair Name="%TechnologyDefinitionScienceAndExplorationIdrinthHacking4Description"></LocalizationPair>
 </Datatable>

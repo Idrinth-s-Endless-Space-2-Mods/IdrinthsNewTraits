@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/ScienceConstructibleElement.xsd">
+    <TechnologyDefinition Name="TechnologyDefinitionScienceAndExplorationIdrinthHacking1" TechnologyStage="TechnologyStageDefinitionScienceAndExploration2" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
+        <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage2Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
+        <PathPrerequisite Flags="Prerequisite,Discard">FactionTraitIdrinthOrganizedHacking</PathPrerequisite>
+        <SimulationDescriptorReference Name="TechnologyIdrinthHacking1"/>
+        <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage2"/>
+        <SimulationDescriptorReference Name="TechnologyCounter"/>
+        <PopulationEvent Name="PopulationPoliticalEventScientistTechnology"/>
+
+        <HelperVariable Name="TurnVariable"/>
+        <HelperFormula>10 * $(TurnVariable)</HelperFormula>
+    </TechnologyDefinition>
+    <TechnologyDefinition Name="TechnologyDefinitionScienceAndExplorationIdrinthHacking2" TechnologyStage="TechnologyStageDefinitionScienceAndExploration3" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
+        <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage3Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/TechnologyLinkDefinitionScienceAndExplorationIdrinthHacking1To2')))</CustomCost>
+        <PathPrerequisite Flags="Prerequisite,Discard">FactionTraitIdrinthOrganizedHacking</PathPrerequisite>
+        <SimulationDescriptorReference Name="TechnologyIdrinthHacking2"/>
+        <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage3"/>
+        <SimulationDescriptorReference Name="TechnologyCounter"/>
+        <PopulationEvent Name="PopulationPoliticalEventScientistTechnology"/>
+
+        <HelperVariable Name="TurnVariable"/>
+        <HelperFormula>9 * $(TurnVariable)</HelperFormula>
+    </TechnologyDefinition>
+    <TechnologyDefinition Name="TechnologyDefinitionScienceAndExplorationIdrinthHacking3" TechnologyStage="TechnologyStageDefinitionScienceAndExploration4" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
+        <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage4Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/TechnologyLinkDefinitionScienceAndExplorationIdrinthHacking1To3')))</CustomCost>
+        <PathPrerequisite Flags="Prerequisite,Discard">FactionTraitIdrinthOrganizedHacking</PathPrerequisite>
+        <SimulationDescriptorReference Name="TechnologyIdrinthHacking3"/>
+        <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage4"/>
+        <SimulationDescriptorReference Name="TechnologyCounter"/>
+        <PopulationEvent Name="PopulationPoliticalEventScientistTechnology"/>
+
+        <HelperVariable Name="TurnVariable"/>
+        <HelperFormula>8 * $(TurnVariable)</HelperFormula>
+    </TechnologyDefinition>
+    <TechnologyDefinition Name="TechnologyDefinitionScienceAndExplorationIdrinthHacking4" TechnologyStage="TechnologyStageDefinitionScienceAndExploration5" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
+        <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage5Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/TechnologyLinkDefinitionScienceAndExplorationIdrinthHacking2To4')))</CustomCost>
+        <PathPrerequisite Flags="Prerequisite,Discard">FactionTraitIdrinthOrganizedHacking</PathPrerequisite>
+        <SimulationDescriptorReference Name="TechnologyIdrinthHacking4"/>
+        <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage5"/>
+        <SimulationDescriptorReference Name="TechnologyCounter"/>
+        <PopulationEvent Name="PopulationPoliticalEventScientistTechnology"/>
+
+        <HelperVariable Name="TurnVariable"/>
+        <HelperFormula>7 * $(TurnVariable)</HelperFormula>
+    </TechnologyDefinition>
+</Datatable>

@@ -13,6 +13,8 @@ Resource Production: A trait for each strategic resource allows the construction
 
 Behemoths: There is a trait to specialise the behemoths towards military action, the economy or science.
 
+Hacking; A trait that unlocks 4 new research options to make your hacking game stringer,
+
 This is still WIP!
 
 Source code is at https://github.com/Idrinth-s-Endless-Space-2-Mods/IdrinthsNewTraits - contributions are always welcome.</Description>
@@ -51,6 +53,7 @@ Source code is at https://github.com/Idrinth-s-Endless-Space-2-Mods/IdrinthsNewT
                 <ExtraTypes>
                     <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
                     <ExtraType DataType="AffinityGuiElement, Assembly-CSharp"/>
+                    <ExtraType DataType="TechnologyGuiElement2, Assembly-CSharp"/>
                 </ExtraTypes>
                 <FilePath>Gui/GuiElements[Idrinth][*].xml</FilePath>
             </DatabasePlugin>
@@ -60,6 +63,18 @@ Source code is at https://github.com/Idrinth-s-Endless-Space-2-Mods/IdrinthsNewT
             <RegistryPlugin>
                 <FilePath>Registry.xml</FilePath>
             </RegistryPlugin>
+            <DatabasePlugin DataType="ScienceConstructibleElement, Assembly-CSharp">
+              <ExtraTypes>
+                <ExtraType DataType="TechnologyDefinition, Assembly-CSharp"/>
+              </ExtraTypes>
+              <FilePath>Simulation/ScienceConstructibleElement_Technology[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <DatabasePlugin DataType="TechnologyLinkDefinition, Assembly-CSharp">
+              <FilePath>Simulation/TechnologyLinkDefinitions[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
+            <DatabasePlugin DataType="EmpireImprovementDefinition, Assembly-CSharp">
+                <FilePath>Simulation/EmpireImprovements[Idrinth].xml</FilePath>
+            </DatabasePlugin>
         </Plugins>
     </RuntimeModule>
 </Datatable>

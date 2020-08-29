@@ -45,4 +45,9 @@
         <Title>%FactionTraitIdrinthMilitaryBehemothsTitle</Title>
         <Description>%FactionTraitIdrinthMilitaryBehemothsDescription</Description>
     </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="FactionTraitIdrinthOrganizedHacking">
+        <Title>%FactionTraitIdrinthOrganizedHackingTitle</Title>
+        <Description>%FactionTraitIdrinthOrganizedHackingDescription</Description>
+    </ExtendedGuiElement>
 </Datatable>

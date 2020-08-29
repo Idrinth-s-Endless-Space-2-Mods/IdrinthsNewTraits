@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="TechnologyIdrinthHacking1" Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyIdrinthHacking2" Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyIdrinthHacking3" Type="Technology" IsSerializable="false"/>
+    <SimulationDescriptor Name="TechnologyIdrinthHacking4" Type="Technology" IsSerializable="false"/>
+
+    <SimulationDescriptor Name="EmpireImprovementIdrinthHacking1" Type="EmpireImprovement">
+      <Modifier TargetProperty="MaximumEmpireProcessingPowerStock" Operation="Addition" Value="20"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementIdrinthHacking2" Type="EmpireImprovement">
+      <Modifier TargetProperty="HackingNodeSpeed" Operation="Percent" Value="0.05"/>
+      <Modifier TargetProperty="HackingWarpSpeed" Operation="Percent" Value="0.05"/>
+      <Modifier TargetProperty="HackingNonWarpSpeed" Operation="Percent" Value="0.05"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementIdrinthHacking3" Type="EmpireImprovement">
+      <BinaryModifier TargetProperty="MaximumEmpireProcessingPowerStock" Operation="Addition" BinaryOperation="Multiplication" Left="${PlanetCount}" Right="1.5" Path="ClassEmpire"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementIdrinthHacking4" Type="EmpireImprovement">
+      <BinaryModifier TargetProperty="HackingNodeSpeed" Operation="Percent" BinaryOperation="Multiplication" Left="0.01" Right="${UnlockedProgramCount}"/>
+      <BinaryModifier TargetProperty="HackingWarpSpeed" Operation="Percent" BinaryOperation="Multiplication" Left="0.01" Right="${UnlockedProgramCount}"/>
+      <BinaryModifier TargetProperty="HackingNonWarpSpeed" Operation="Percent" BinaryOperation="Multiplication" Left="0.01" Right="${UnlockedProgramCount}"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="TechnologyLinkDefinitionScienceAndExplorationIdrinthHacking1To2" Type="TechnologyLink"/>
+    <SimulationDescriptor Name="TechnologyLinkDefinitionScienceAndExplorationIdrinthHacking1To3" Type="TechnologyLink"/>
+    <SimulationDescriptor Name="TechnologyLinkDefinitionScienceAndExplorationIdrinthHacking2To4" Type="TechnologyLink"/>
+
+    <SimulationDescriptor Name="FactionTraitIdrinthOrganizedHacking" Type="FactionTrait">
+      <Modifier TargetProperty="MaximumEmpireProcessingPowerStock" Operation="Addition" Value="5" Path="ClassEmpire"/>
+    </SimulationDescriptor>
+</Datatable>

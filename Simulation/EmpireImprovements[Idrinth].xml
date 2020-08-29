@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/EmpireImprovementDefinition.xsd">
+    <EmpireImprovementDefinition Name="EmpireImprovementIdrinthHacking1" Category="CategoryHackingImprovements" SubCategory="SubCategoryScience">
+        <TechnologyPrerequisite>TechnologyIdrinthHacking1</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementIdrinthHacking1" />
+    </EmpireImprovementDefinition>
+    <EmpireImprovementDefinition Name="EmpireImprovementIdrinthHacking2" Category="CategoryHackingImprovements" SubCategory="SubCategoryScience">
+        <TechnologyPrerequisite>TechnologyIdrinthHacking2</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementIdrinthHacking2" />
+    </EmpireImprovementDefinition>
+    <EmpireImprovementDefinition Name="EmpireImprovementIdrinthHacking3" Category="CategoryHackingImprovements" SubCategory="SubCategoryScience">
+        <TechnologyPrerequisite>TechnologyIdrinthHacking3</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementIdrinthHacking3" />
+    </EmpireImprovementDefinition>
+    <EmpireImprovementDefinition Name="EmpireImprovementIdrinthHacking4" Category="CategoryHackingImprovements" SubCategory="SubCategoryScience">
+        <TechnologyPrerequisite>TechnologyIdrinthHacking4</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementIdrinthHacking4" />
+    </EmpireImprovementDefinition>
+</Datatable>
