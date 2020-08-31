@@ -46,4 +46,9 @@
   <LocalizationPair Name="%TechnologyDefinitionScienceAndExplorationIdrinthHacking3Description"></LocalizationPair>
   <LocalizationPair Name="%TechnologyDefinitionScienceAndExplorationIdrinthHacking4Title">Hacking-Stardom</LocalizationPair>
   <LocalizationPair Name="%TechnologyDefinitionScienceAndExplorationIdrinthHacking4Description"></LocalizationPair>
+
+  <LocalizationPair Name="%FactionTraitIdrinthDepletedSystemTitle">Depleted System</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthDepletedSystemDescription"></LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthDepletingSystemTitle">Depleted System</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitIdrinthDepletingSystemDescription"></LocalizationPair>
 </Datatable>

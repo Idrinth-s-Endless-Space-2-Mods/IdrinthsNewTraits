@@ -50,4 +50,13 @@
         <Title>%FactionTraitIdrinthOrganizedHackingTitle</Title>
         <Description>%FactionTraitIdrinthOrganizedHackingDescription</Description>
     </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="FactionTraitIdrinthDepletedSystem">
+        <Title>%FactionTraitIdrinthDepletedSystemTitle</Title>
+        <Description>%FactionTraitIdrinthDepletedSystemDescription</Description>
+    </ExtendedGuiElement>
+    <ExtendedGuiElement Name="FactionTraitIdrinthDepletingSystem">
+        <Title>%FactionTraitIdrinthDepletingSystemTitle</Title>
+        <Description>%FactionTraitIdrinthDepletingSystemDescription</Description>
+    </ExtendedGuiElement>
 </Datatable>

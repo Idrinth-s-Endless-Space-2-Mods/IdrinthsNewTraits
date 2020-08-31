@@ -5,7 +5,7 @@
         <QuestContextSolo/>
         <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
         <Vars>
-            <Var VarName="$Effect" StringValue="EventIdrinthDepletingSystem"/>
+            <Var VarName="$Effect" StringValue="FactionTraitIdrinthDepletingSystem"/>
             <Var VarName="$CurrentEmpire">
                 <From Source="$Empire"/>
             </Var>
