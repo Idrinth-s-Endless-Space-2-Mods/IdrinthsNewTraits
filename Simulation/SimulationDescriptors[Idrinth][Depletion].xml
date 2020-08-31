@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="FactionTraitIdrinthDepletedSystem" Type="FactionTrait" IsSerializable="true">
+        <Modifier TargetProperty="PlanetDepletion" Operation="Percent" Value="1" Path="FAKEPATHFORGUI//ClassPlanet,HomePlanet"/>
+        <BinaryModifier TargetProperty="PlanetDepletionPerTurn" Operation="Addition" BinaryOperation="Multiplication" Left="200" Right="$(GameSpeedMultiplier)" Path="ClassEmpire//ClassPlanet,HomePlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EventIdrinthDepletingSystem" Type="FactionTrait" IsSerializable="true">
+        <BinaryModifier TargetProperty="PlanetDepletionPerTurn" Operation="Addition" BinaryOperation="Multiplication" Left="-200" Right="$(GameSpeedMultiplier)" Path="ClassEmpire//ClassPlanet,HomePlanet" TooltipHidden="true"/>
+    </SimulationDescriptor>
+</Datatable>

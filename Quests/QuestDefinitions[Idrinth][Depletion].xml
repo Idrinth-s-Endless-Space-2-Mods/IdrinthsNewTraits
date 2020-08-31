@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
+    <QuestDefinition Name="IdrinthPseudoCraverEffect" Category="Start" SubCategory="Regular" TriggeringProbability="1" MinimumTurn="5">
+        <Tags>BeginTurn,Hidden</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerEmpire="1"/>
+        <Vars>
+            <Var VarName="$Effect" StringValue="EventIdrinthDepletingSystem"/>
+            <Var VarName="$CurrentEmpire">
+                <From Source="$Empire"/>
+            </Var>
+        </Vars>
+        <Prerequisites Target="$(Empire)">
+            <PathPrerequisite Flags="Prerequisite">ClassEmpire,FactionTraitIdrinthDepletedSystem</PathPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IdrinthPseudoCraverEffect1_1">
+                        <Sequence>
+                            <Action_ApplyDescriptor LogAction="true">
+                                <Input_DescriptorName VarName="$Effect"/>
+                                <Input_Targets VarName="$CurrentEmpire"/>
+                            </Action_ApplyDescriptor>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+
+    </QuestDefinition>
+</Datatable>
